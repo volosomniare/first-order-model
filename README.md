@@ -2,6 +2,14 @@
 
 This repository contains the source code for the paper [First Order Motion Model for Image Animation](https://papers.nips.cc/paper/8935-first-order-motion-model-for-image-animation) by Aliaksandr Siarohin, [Stéphane Lathuilière](http://stelat.eu), [Sergey Tulyakov](http://stulyakov.com), [Elisa Ricci](http://elisaricci.eu/) and [Nicu Sebe](http://disi.unitn.it/~sebe/). 
 
+# yanderifier
+
+This repository also includes the yanderifier GUI made by [dunnousername](https://github.com/dunnousername). His description is below:
+
+completely setup environment with GUI for first-order-motion deepfakes (this repo serves as an easy way to distribute these files to non-technical users, rather than as an exercise in the "right way of doing things.")
+based on [first-order-model](https://github.com/AliaksandrSiarohin/first-order-model)
+join our [discord server](https://discord.gg/WhMnTBW)
+
 ## Example animations
 
 The videos on the left show the driving videos. The first row on the right for each dataset shows the source videos. The bottom row contains the animated sequences with motion transferred from the driving video and object taken from the source image. We trained a separate network for each task.
@@ -16,10 +24,22 @@ The videos on the left show the driving videos. The first row on the right for e
 
 ### Installation
 
+#### If you already have python and would like to modify the code 
+
 We support ```python3```. To install the dependencies run:
 ```
 pip install -r requirements.txt
 ```
+#### If you just want to run the yanderifier GUI program on Windows 64-bit
+
+1. download https://github.com/volosomniare/first-order-model/releases/download/1.0/yanderify.zip
+
+2. extract the zip file to a directory
+
+3. download https://github.com/dunnousername/yanderifier/releases/download/model/checkpoint.tar
+
+4. move this file to the same folder as the yanderify.exe of the directory you extracted
+
 
 ### YAML configs
 
