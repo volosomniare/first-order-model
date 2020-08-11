@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 #### If you just want to run the yanderifier GUI program on Windows 64-bit
 
-1. download https://github.com/volosomniare/first-order-model/releases/download/1.0/yanderify.zip
+1. download https://github.com/volosomniare/first-order-model/releases/download/1.1/yanderify.zip
 
 2. extract the zip file to a directory
 
