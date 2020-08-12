@@ -1,3 +1,15 @@
+# No python required yanderifier repo
+
+#### If you just want to run the yanderifier GUI program on Windows 64-bit
+
+1. download https://github.com/volosomniare/first-order-model/releases/download/1.1/yanderify.zip
+
+2. extract the zip file to a directory
+
+3. download https://github.com/dunnousername/yanderifier/releases/download/model/checkpoint.tar
+
+4. move this file to the same folder as the yanderify.exe of the directory you extracted
+
 # First Order Motion Model for Image Animation
 
 This repository contains the source code for the paper [First Order Motion Model for Image Animation](https://papers.nips.cc/paper/8935-first-order-motion-model-for-image-animation) by Aliaksandr Siarohin, [Stéphane Lathuilière](http://stelat.eu), [Sergey Tulyakov](http://stulyakov.com), [Elisa Ricci](http://elisaricci.eu/) and [Nicu Sebe](http://disi.unitn.it/~sebe/). 
@@ -31,15 +43,6 @@ We support ```python3```. To install the dependencies run:
 ```
 pip install -r requirements.txt
 ```
-#### If you just want to run the yanderifier GUI program on Windows 64-bit
-
-1. download https://github.com/volosomniare/first-order-model/releases/download/1.1/yanderify.zip
-
-2. extract the zip file to a directory
-
-3. download https://github.com/dunnousername/yanderifier/releases/download/model/checkpoint.tar
-
-4. move this file to the same folder as the yanderify.exe of the directory you extracted
 
 
 ### YAML configs
